@@ -17,4 +17,4 @@ if __name__ == "__main__":
     
     airportsNameAndCityNames = airportsInUSA.map(splitComma)
 
-    airportsNameAndCityNames.saveAsTextFile("out/airports_by_latitude.text")
+    airportsNameAndCityNames.saveAsTextFile("out/airports_in_usa_latitude.text/")
